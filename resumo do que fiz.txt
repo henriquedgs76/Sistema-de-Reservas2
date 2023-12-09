@@ -1,0 +1,9 @@
+Resumo do código:
+
+O código utiliza a biblioteca sqlite3 para se conectar e interagir com o banco de dados SQLite.
+A função criar_tabela() é responsável por criar a tabela reservas no banco de dados, caso ainda não exista.
+A função adicionar_reserva() coleta as informações do cliente (nome, idade, email, documento e data e hora da reserva) através de input do usuário e insere os dados na tabela reservas.
+A função listar_reservas() busca todas as reservas presentes na tabela reservas e exibe uma lista com os dados de cada reserva.
+A função verificar_limite() conta quantas reservas existem na tabela reservas e exibe o limite de hóspedes, a quantidade de hóspedes hospedados e a quantidade de lugares disponíveis.
+As funções mensagem_boas_vindas() e mensagem_agradecimento() exibem mensagens de boas-vindas e agradecimento ao usuário, respectivamente.
+A função main() é a função principal do programa, que chama as outras funções de acordo com as opções selecionadas pelo usuário no menu.
